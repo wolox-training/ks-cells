@@ -1,0 +1,12 @@
+.card-list {
+    background-color: #F4F4F4;
+    display: grid;
+    grid-template-areas: "search search search search"
+                         "content content content content";
+    gap: 36px 36px;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 0 10% 0;
+    width: 100%;
+    height: 100%;
+}
