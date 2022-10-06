@@ -1,2 +1,5 @@
 ## Lit ##
 node_modules/
+
+## Ds Store ##
+.DS_Store

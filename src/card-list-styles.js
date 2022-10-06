@@ -30,5 +30,4 @@ export default css`
     height: 30px;
     border-radius: 7px;
   }
-
 `
