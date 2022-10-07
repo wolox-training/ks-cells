@@ -32,18 +32,16 @@ class CardList extends LitElement {
 	}
 
 	ShortData() {
-		const temporalData = [];
-		this.data.map(element => {
-			temporalData.push({ img: element.img, book_title: element.book_title, author: element.author });
-		});
-		this.books = temporalData;
+		this.books = this.data.map(({ img, book_title, author }) =>
+			({ img, book_title, author })
+		);
 	}
 
 	filterData() {
 		const value = this.shadowRoot.querySelector("#Search").value.toLowerCase();
 		const temporalData = [];
 
-		this.data.map( element => {
+		this.data.map(element => {
 			const title = element.book_title.toLowerCase();
 			const author = element.author.toLowerCase();
 
@@ -69,7 +67,7 @@ class CardList extends LitElement {
 			</div>
 			${this.books.map(element => {
 			return html`<book-container img="${element.img}" book_title="${element.book_title}" author="${element.author}"></book-container>`
-			})}
+		})}
 		`
 	}
 
