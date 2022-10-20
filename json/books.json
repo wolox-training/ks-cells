@@ -2,41 +2,65 @@
   {
     "author": "Chinua Achebe",
     "book_title": "Things Fall Apart",
-    "img": "https://images-na.ssl-images-amazon.com/images/I/31b8d6ueE9L._BO1,204,203,200_.jpg"
+    "img": "https://images-na.ssl-images-amazon.com/images/I/31b8d6ueE9L._BO1,204,203,200_.jpg",
+    "year":"1958",
+    "gendr":"Novela",
+    "publisher":"William Heinemann Ltd."
   },
   {
     "author": "Hans Christian Andersen",
     "book_title": "Fairy tales",
-    "img": "https://i.pinimg.com/originals/b9/dc/30/b9dc30d871d15ee8f13a623dddcc14b5.jpg"
+    "img": "https://i.pinimg.com/originals/b9/dc/30/b9dc30d871d15ee8f13a623dddcc14b5.jpg",
+    "year":"1870",
+    "gendr":"Fantasia",
+    "publisher":"The Riverside Magazine for Young People"
   },
   {
     "author": "Dante Alighieri",
     "book_title": "The Divine Comedy",
-    "img": "https://images-na.ssl-images-amazon.com/images/I/91vybHeMSxL.jpg"
+    "img": "https://images-na.ssl-images-amazon.com/images/I/91vybHeMSxL.jpg",
+    "year":"1304 - 1321",
+    "gendr":"Epopeya",
+    "publisher":"Unknown"
   },
   {
     "author": "Unknown",
     "book_title": "Epic Of Gilgamesh",
-    "img": "https://badgerbooks.com.au/images/books/cover/34471_2022816164345_the_epic_of_gilgamesh.jpg"
+    "img": "https://badgerbooks.com.au/images/books/cover/34471_2022816164345_the_epic_of_gilgamesh.jpg",
+    "year":"2100–1200 a. C.",
+    "gendr":"Epopeya",
+    "publisher":"Unknown"
   },
   {
     "author": "Unknown",
     "book_title": "The Book Of Job",
-    "img": "https://images-na.ssl-images-amazon.com/images/I/71ZHKzeSN6L.jpg"
+    "img": "https://images-na.ssl-images-amazon.com/images/I/71ZHKzeSN6L.jpg",
+    "year":"600 - 300 a. C.",
+    "gendr":"Escritos",
+    "publisher":"Unknown"
   },
   {
     "author": "Unknown",
     "book_title": "The Bible",
-    "img": "https://images.squarespace-cdn.com/content/v1/5a30b5abdc2b4ab3bb9fc264/1588317779169-OG0OC0HR5YSEESFO523J/holy-bible-cover.jpg"
+    "img": "https://images.squarespace-cdn.com/content/v1/5a30b5abdc2b4ab3bb9fc264/1588317779169-OG0OC0HR5YSEESFO523J/holy-bible-cover.jpg",
+    "year":"Unknown",
+    "gendr":"Unknown",
+    "publisher":"Unknown"
   },
   {
     "author": "J.K. Rowling",
     "book_title": "Harry Potter",
-    "img": "https://images-na.ssl-images-amazon.com/images/I/81m1s4wIPML.jpg"
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81m1s4wIPML.jpg",
+    "year":"1997",
+    "gendr":"Novela",
+    "publisher":"Bloomsbury Salamandra Scholastic"
   },
   {
     "author": "J.R.R. Tolkien",
     "book_title": "The Lord of the Rings",
-    "img": "https://kbimages1-a.akamaihd.net/47047012-399c-4ae3-aade-cd4c2a10e8e7/1200/1200/False/the-fellowship-of-the-ring-the-lord-of-the-rings-book-1-1.jpg"
+    "img": "https://kbimages1-a.akamaihd.net/47047012-399c-4ae3-aade-cd4c2a10e8e7/1200/1200/False/the-fellowship-of-the-ring-the-lord-of-the-rings-book-1-1.jpg",
+    "year":"1954",
+    "gendr":"Novela",
+    "publisher":"George Allen & Unwin"
   }
 ]
