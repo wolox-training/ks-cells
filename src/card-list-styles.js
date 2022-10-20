@@ -2,7 +2,20 @@ import { css } from 'lit-element';
 
 export default css`
 
-  .search {
+  .card-list {
+    background-color: #F4F4F4;
+    display: grid;
+    grid-template-areas: "search search search search"
+                            "content content content content";
+    gap: 36px;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 0 10% 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-list .search {
     align-items: center;
     grid-area: search;
     display: flex;
@@ -17,12 +30,12 @@ export default css`
     border: solid #b6b6b6;
   }
 
-  .search .search_button {
+  .card-list .search .search_button {
     height: 25px;
     right: 6px;
   }
 
-  .search .input_search {
+  .card-list .search .input_search {
     height: 40px;
     grid-area: search;
     background-color: #fff;
